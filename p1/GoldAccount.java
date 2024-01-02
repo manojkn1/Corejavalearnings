@@ -1,6 +1,6 @@
 package p1;
 
-public class GoldAccount extends SilverAcount{
+public class GoldAccount extends SilverAcount{    // in overriding inheritence uis mandatory
     @Override
     public void rateOfintrest(){
         System.out.println("7.5%");
