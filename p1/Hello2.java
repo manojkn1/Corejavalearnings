@@ -1,0 +1,17 @@
+package p1;
+
+public class Hello2 implements FunctionalInterfaceExample{
+
+    @Override
+    public void test1() {
+        System.out.println("from test 1");
+
+    }
+
+    public static void main(String[] args) {
+        Hello2 a1= new Hello2();
+        a1.test1();
+        a1.test2();
+    }
+
+}
