@@ -14,5 +14,6 @@ public class HashSet_Examples {
         System.out.println(h.add("m"));  // returns false bcz it is duplicate
         System.out.println(h);
 
+
     }
 }
